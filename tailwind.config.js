@@ -22,6 +22,7 @@ module.exports = {
         "dark-gray": "#70757a",
         "light-gray": "#d5d7d8",
         "primary-hover": "rgba(223,225,229,0)",
+        "blue-bic": "#1a0dab",
       },
     },
   },
