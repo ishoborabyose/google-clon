@@ -672,6 +672,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-\[0\.0625rem\] {
+  border-bottom-width: 0.0625rem;
+}
+
 .border-solid {
   border-style: solid;
 }
