@@ -8,8 +8,9 @@ module.exports = {
     },
 
     fontFamily: {
-      "open-sans": "open-sans",
+      arial: ["Arial,sans-serif"],
     },
+
     extend: {
       colors: {
         "real-white": "#ffff",

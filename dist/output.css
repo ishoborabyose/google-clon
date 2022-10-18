@@ -544,6 +544,18 @@ video {
   margin-top: 130px;
 }
 
+.mb-\[1\.5625rem\] {
+  margin-bottom: 1.5625rem;
+}
+
+.mb-\[2rem\] {
+  margin-bottom: 2rem;
+}
+
+.mt-\[8\.125rem\] {
+  margin-top: 8.125rem;
+}
+
 .flex {
   display: flex;
 }
@@ -568,6 +580,14 @@ video {
   height: 100vh;
 }
 
+.h-\[2\.1875rem\] {
+  height: 2.1875rem;
+}
+
+.h-\[5\.75rem\] {
+  height: 5.75rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -582,6 +602,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[2\.1875rem\] {
+  width: 2.1875rem;
+}
+
+.w-\[37\.5rem\] {
+  width: 37.5rem;
 }
 
 .cursor-pointer {
@@ -600,8 +628,8 @@ video {
   justify-content: center;
 }
 
-.gap-\[15px\] {
-  gap: 15px;
+.gap-\[0\.9375rem\] {
+  gap: 0.9375rem;
 }
 
 .gap-\[12px\] {
@@ -616,37 +644,46 @@ video {
   gap: 30px;
 }
 
-.rounded-\[50\%\] {
-  border-radius: 50%;
+.gap-\[0\.75rem\] {
+  gap: 0.75rem;
+}
+
+.gap-\[1\.875rem\] {
+  gap: 1.875rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded-\[100\%\] {
-  border-radius: 100%;
-}
-
-.rounded-\[30px\] {
-  border-radius: 30px;
-}
-
-.rounded-\[4px\] {
-  border-radius: 4px;
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-\[1px\] {
   border-width: 1px;
 }
 
+.border-\[0\.0625rem\] {
+  border-width: 0.0625rem;
+}
+
 .border-b-\[1px\] {
   border-bottom-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-tertiary-white {
   --tw-border-opacity: 1;
   border-color: rgb(223 225 229 / var(--tw-border-opacity));
+}
+
+.border-primary-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(218 220 224 / var(--tw-border-opacity));
 }
 
 .border-light-gray {
@@ -682,6 +719,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-\[0\.5rem\] {
+  padding: 0.5rem;
 }
 
 .pt-\[10px\] {
@@ -748,20 +789,94 @@ video {
   padding-left: 5px;
 }
 
+.pt-\[0\.625rem\] {
+  padding-top: 0.625rem;
+}
+
+.pl-\[0\.9375rem\] {
+  padding-left: 0.9375rem;
+}
+
+.pr-\[0\.9375rem\] {
+  padding-right: 0.9375rem;
+}
+
+.pl-\[0\.625rem\] {
+  padding-left: 0.625rem;
+}
+
+.pr-\[0\.625rem\] {
+  padding-right: 0.625rem;
+}
+
+.pb-\[0\.3125rem\] {
+  padding-bottom: 0.3125rem;
+}
+
+.pb-\[0\.625rem\] {
+  padding-bottom: 0.625rem;
+}
+
+.pr-\[0\.875rem\] {
+  padding-right: 0.875rem;
+}
+
+.pl-\[0\.875rem\] {
+  padding-left: 0.875rem;
+}
+
+.pt-\[0\.125rem\] {
+  padding-top: 0.125rem;
+}
+
+.pl-\[0\.75rem\] {
+  padding-left: 0.75rem;
+}
+
+.pl-\[1rem\] {
+  padding-left: 1rem;
+}
+
+.pb-\[0\.5rem\] {
+  padding-bottom: 0.5rem;
+}
+
+.pr-\[1rem\] {
+  padding-right: 1rem;
+}
+
+.pr-\[0\.0625rem\] {
+  padding-right: 0.0625rem;
+}
+
+.pl-\[0\.3125rem\] {
+  padding-left: 0.3125rem;
+}
+
 .text-center {
   text-align: center;
 }
 
-.font-open-sans {
-  font-family: open-sans;
+.font-arial {
+  font-family: Arial,sans-serif;
 }
 
-.text-\[13px\] {
-  font-size: 13px;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
 }
 
 .text-black {
@@ -779,7 +894,7 @@ video {
   color: rgb(60 64 67 / var(--tw-text-opacity));
 }
 
-.text-\[\#1a0dab\] {
+.text-blue-bic {
   --tw-text-opacity: 1;
   color: rgb(26 13 171 / var(--tw-text-opacity));
 }
@@ -787,11 +902,6 @@ video {
 .text-dark-gray {
   --tw-text-opacity: 1;
   color: rgb(112 117 122 / var(--tw-text-opacity));
-}
-
-.text-blue-bic {
-  --tw-text-opacity: 1;
-  color: rgb(26 13 171 / var(--tw-text-opacity));
 }
 
 .outline-none {
@@ -815,6 +925,14 @@ video {
   }
 }
 
+.hover\:border-\[1px\]:hover {
+  border-width: 1px;
+}
+
+.hover\:border-\[0\.0625rem\]:hover {
+  border-width: 0.0625rem;
+}
+
 .hover\:border-primary-hover:hover {
   border-color: rgba(223,225,229,0);
 }
@@ -822,6 +940,11 @@ video {
 .hover\:border-primary-white:hover {
   --tw-border-opacity: 1;
   border-color: rgb(218 220 224 / var(--tw-border-opacity));
+}
+
+.hover\:border-gray-50:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 250 251 / var(--tw-border-opacity));
 }
 
 .hover\:bg-secondary-white:hover {
@@ -856,6 +979,10 @@ video {
 
   .sm\:gap-\[30px\] {
     gap: 30px;
+  }
+
+  .sm\:gap-\[1\.875rem\] {
+    gap: 1.875rem;
   }
 }
 
