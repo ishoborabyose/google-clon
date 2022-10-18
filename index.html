@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>Google</title>
+  </head>
+  <body class="relative bg-real-white">
+    <header
+      class="flex justify-end w-screen gap-[0.9375rem] pt-[0.625rem] pl-[0.9375rem] pr-[0.9375rem] absolute top-0"
+    >
+      <p
+        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer hidden sm:block"
+      >
+        Gmail
+      </p>
+      <p
+        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer hidden sm:block"
+      >
+        Images
+      </p>
+      <span
+        class="mt-auto mb-auto pt-[0.625rem] hover:bg-secondary-white rounded-full pl-[0.625rem] pr-[0.625rem] pb-[0.3125rem] cursor-pointer"
+      >
+        <svg
+          class="w-7 h-7 fill-gray-600"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+          ></path>
+        </svg>
+      </span>
+
+      <div class="p-1 hover:bg-secondary-white rounded-full">
+        <img
+          src="./assets/images/photography-of-a-guy-wearing-green-shirt.png"
+          alt="profile"
+          class="mt-auto mb-auto h-[2.1875rem] cursor-pointer w-[2.1875rem] rounded-full"
+        />
+      </div>
+
+      <div
+        class="flex sm:hidden w-screen gap-[0.9375rem] pt-[0.625rem] pl-[1.5rem] pr-[0.9375rem] absolute top-0"
+      >
+        <img
+          class="mt-auto mb-auto h-[2.1875rem] cursor-pointer w-[2.1875rem]"
+          src="./assets/images/menu_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="mob nav"
+        />
+        <p
+          class="font-arial text-blue-bic mt-auto mb-auto p-2 text-sm border-b-blue-bic border-b-2 cursor-pointer"
+        >
+          <a href="">ALL</a>
+        </p>
+        <p
+          class="font-arial text-dark-gray mt-auto mb-auto text-sm hover:underline cursor-pointer"
+        >
+          <a href="">IMAGES</a>
+        </p>
+      </div>
+    </header>
+    <section class="flex">
+      <div class="m-auto">
+        <img
+          class="text-center m-auto mb-14/2 h-[5.75rem]"
+          id="logo"
+          src="./assets/images/googlelogo.png"
+        />
+        <div
+          class="flex border-[0.0625rem] mb-14/2 border-tertiary-white pt-[0.625rem] pb-[0.625rem] pr-[0.875rem] pl-[0.875rem] sm:w-[37.5rem] rounded-full w-full hover:border-primary-hover hover:shadow-shadow2"
+        >
+          <svg
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="#9aa0a6"
+            class="w-7 h-7"
+          >
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            ></path>
+          </svg>
+
+          <input
+            type="text"
+            class="w-full bg-transparent outline-none text-black pl-[0.75rem]"
+          />
+          <img src="./assets/vectors/icon.svg" alt="mic" />
+          <img class="w-7 ml-4" src="./assets/vectors/cam.svg" alt="cam" />
+        </div>
+        <div class="flex justify-center gap-[0.75rem] mb-8">
+          <button
+            class="px-4 text-tertiary-gray py-1 border border-white rounded-lg hover:border-gray-200 hover:shadow-sm font-arial pl-4 p-2 pb-2 bg-secondary-white text-sm hidden sm:block"
+          >
+            Google Search
+          </button>
+          <button
+            class="px-4 text-tertiary-gray py-1 border border-white rounded-lg hover:border-gray-200 hover:shadow-sm font-arial pl-4 p-2 pb-2 bg-secondary-white text-sm hidden sm:block"
+          >
+            I'm Feeling Lucky
+          </button>
+        </div>
+        <p class="font-arial text-center text-sm text-tertiary-gray">
+          Google offered in:<a
+            class="font-arial pr-[0.0625rem] pl-[0.3125rem] text-blue-bic hover:underline cursor-pointer"
+          >
+            Français
+          </a>
+          <a
+            class="font-arial pr-[0.0625rem] pl-[0.3125rem] text-blue-bic hover:underline cursor-pointer"
+            >Kiswahili</a
+          >
+          <a
+            class="font-arial pr-[0.0625rem] pl-[0.3125rem] text-blue-bic hover:underline cursor-pointer"
+            >Ikinyarwanda</a
+          >
+        </p>
+        <div class="mt-[8.125rem]"></div>
+      </div>
+
+      <div class="h-screen"></div>
+    </section>
+    <footer class="absolute bottom-0 w-screen">
+      <div
+        class="font-arial bg-primary-gray text-dark-gray text-sm border-b-[0.0625rem] border-light-gray p-4"
+      >
+        Rwanda
+      </div>
+      <div
+        class="bg-primary-gray text-dark-gray p-4 grid gap-6 justify-center text-sm lg:flex sm:flex sm:justify-between lg:justify-between flex-wrap"
+      >
+        <ul class="inline-flex sm:gap-[1.875rem] flex-wrap gap-[1.875rem]">
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href=""> About</a>
+          </li>
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href=""> Advertising</a>
+          </li>
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href=""> Business</a>
+          </li>
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href="">How Search works</a>
+          </li>
+        </ul>
+        <ul
+          class="inline-flex sm:gap-[1.875rem] flex-wrap gap-[1.875rem] justify-center"
+        >
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href="">Privacy</a>
+          </li>
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href=""> Terms</a>
+          </li>
+          <li class="font-arial hover:underline cursor-pointer">
+            <a href=""> Settings</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
