@@ -17,12 +17,12 @@
       class="flex justify-end w-screen gap-[0.9375rem] pt-[0.625rem] pl-[0.9375rem] pr-[0.9375rem] absolute top-0"
     >
       <p
-        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer"
+        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer nav"
       >
         Gmail
       </p>
       <p
-        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer"
+        class="font-arial text-black mt-auto mb-auto text-sm hover:underline cursor-pointer nav"
       >
         Images
       </p>
@@ -38,6 +38,26 @@
           alt="profile"
           class="mt-auto mb-auto h-[2.1875rem] cursor-pointer w-[2.1875rem] rounded-full"
         />
+      </div>
+
+      <div
+        class="hidden header w-screen gap-[0.9375rem] pt-[0.625rem] pl-[1.5rem] pr-[0.9375rem] absolute top-0"
+      >
+        <img
+          class="mt-auto mb-auto h-[2.1875rem] cursor-pointer w-[2.1875rem]"
+          src="./assets/images/menu_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="mob nav"
+        />
+        <p
+          class="font-arial text-blue-bic mt-auto mb-auto p-2 text-sm border-b-blue-bic border-b-2 cursor-pointer"
+        >
+          <a href="">ALL</a>
+        </p>
+        <p
+          class="font-arial text-dark-gray mt-auto mb-auto text-sm hover:underline cursor-pointer"
+        >
+          <a href="">IMAGES</a>
+        </p>
       </div>
     </header>
     <section class="flex">
@@ -64,12 +84,12 @@
         </div>
         <div class="flex justify-center gap-[0.75rem] mb-[2rem]">
           <button
-            class="font-arial bg-secondary-white text-sm text-tertiary-gray rounded-lg hover:shadow-shadow1 border-solid border-primary-white pl-[1rem] p-[0.5rem] pb-[0.5rem] pr-[1rem]"
+            class="font-arial bg-secondary-white text-sm text-tertiary-gray rounded-lg hover:shadow-shadow1 border-solid border-primary-white pl-[1rem] p-[0.5rem] pb-[0.5rem] pr-[1rem] nav"
           >
             Google Search
           </button>
           <button
-            class="font-arial bg-secondary-white text-sm text-tertiary-gray rounded-lg hover:shadow-shadow1 border-solid hover:border-primary-white pl-[1rem] p-[0.5rem] pb-[0.5rem] pr-[1rem]"
+            class="font-arial bg-secondary-white text-sm text-tertiary-gray rounded-lg hover:shadow-shadow1 border-solid hover:border-primary-white pl-[1rem] p-[0.5rem] pb-[0.5rem] pr-[1rem] nav"
           >
             I'm Feeling Lucky
           </button>
@@ -96,7 +116,7 @@
     </section>
     <footer class="absolute bottom-0 w-screen">
       <div
-        class="font-arial bg-primary-gray text-dark-gray text-[0.875rem] border-b-[0.0625rem] border-light-gray p-4"
+        class="font-arial bg-primary-gray text-dark-gray text-sm border-b-[0.0625rem] border-light-gray p-4"
       >
         Rwanda
       </div>
@@ -105,7 +125,7 @@
       >
         <ul class="inline-flex sm:gap-[1.875rem] flex-wrap gap-[1.875rem]">
           <li class="font-arial hover:underline cursor-pointer">
-            <a href=""> About</a>
+            <a class="" href=""> About</a>
           </li>
           <li class="font-arial hover:underline cursor-pointer">
             <a href=""> Advertising</a>
