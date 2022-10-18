@@ -25,6 +25,10 @@ module.exports = {
         "primary-hover": "rgba(223,225,229,0)",
         "blue-bic": "#1a0dab",
       },
+
+      margin: {
+        "14/2": "25px",
+      },
     },
   },
   plugins: [],
