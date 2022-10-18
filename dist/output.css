@@ -694,10 +694,6 @@ video {
   padding: 0.5rem;
 }
 
-.p-\[0\.5rem\] {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -764,7 +760,7 @@ video {
   padding-left: 1rem;
 }
 
-.pb-\[0\.5rem\] {
+.pb-2 {
   padding-bottom: 0.5rem;
 }
 
