@@ -6,18 +6,3 @@
   font-family: "open-sans";
   src: url("./assets/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
 }
-
-@media only screen and (max-width: 622px) {
-  .nav {
-    display: none;
-  }
-  .search {
-    width: 100%;
-  }
-  .card-search {
-    margin-top: 50%;
-  }
-  .header {
-    display: flex;
-  }
-}
